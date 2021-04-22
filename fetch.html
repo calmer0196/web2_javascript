@@ -22,7 +22,9 @@
 	function callbackme(){
 		console.log('response end');
 	}
-	fetch('html').then(callbackme);
+	fetch('html').then(function(response){
+		console.log(response);
+	});
 	">
 </body>
 
