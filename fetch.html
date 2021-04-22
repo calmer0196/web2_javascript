@@ -19,7 +19,10 @@
 			})
 		})
 	*/
-	fetch('html');
+	function callbackme(){
+		console.log('response end');
+	}
+	fetch('html').then(callbackme);
 	">
 </body>
 
