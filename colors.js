@@ -1,4 +1,4 @@
-var Links = {
+const Links = {
     setColor: function (color) {
         // var alist = document.querySelectorAll('a');
         // var i = 0;
@@ -10,7 +10,7 @@ var Links = {
         $('a').css('color', color);
     }
 }
-var Body = {
+const Body = {
     setColor: function (color) {
         // document.querySelector('body').style.color = color;
         $('body').css('color', color);
